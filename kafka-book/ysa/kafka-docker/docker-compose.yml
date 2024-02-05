@@ -1,3 +1,4 @@
+
 version: '3.5'
 services:
   zookeeper:
@@ -48,3 +49,4 @@ services:
       KAFKA_OFFSETS_TOPIC_REPLICATION_FACTOR: 1
       # 컨슈머들이 컨슈머그룹에 조인할 때 대기시간
       KAFKA_GROUP_INITIAL_REBALANCE_DELAY_MS: 0
+
